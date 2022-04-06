@@ -1,12 +1,16 @@
 import React from 'react'
 
 import './BottomComponent.css'
+import { Link,useNavigate } from "react-router-dom";
 
 import {BsThreeDotsVertical} from 'react-icons/bs'
 
 import image from '../../assets/my pic.jpg'
 
 const BottomComponent = () => {
+
+    const navigate = useNavigate()
+
     return (
         <>
             <div className="bottomComponent__container">
@@ -21,7 +25,10 @@ const BottomComponent = () => {
                         <th>TOTAL SALES</th>
                         <th>LAST ORDER</th>
                     </tr>
-                    <tr>
+                    <tr onClick={()=>{
+                        navigate('/page2',{replace:true})
+                    }}>
+                        
                         <td><img src={image} alt="" /></td>
                         <td>Merrisa</td>
                         <td>Lewis</td>
@@ -33,7 +40,9 @@ const BottomComponent = () => {
                         <td><BsThreeDotsVertical /></td>
                         
                     </tr>
-                    <tr>
+                    <tr onClick={()=>{
+                        navigate('/page2',{replace:true})
+                    }}>
                         <td><img src={image} alt="" /></td>
                         <td>Fredy</td>
                         <td>Henry</td>
@@ -45,7 +54,9 @@ const BottomComponent = () => {
                         <td><BsThreeDotsVertical /></td>
 
                     </tr>
-                    <tr>
+                    <tr onClick={()=>{
+                        navigate('/page2',{replace:true})
+                    }}>
                         <td><img src={image} alt="" /></td>
                         <td>Victor</td>
                         <td>Bent</td>
@@ -57,7 +68,9 @@ const BottomComponent = () => {
                         <td><BsThreeDotsVertical /></td>
 
                     </tr>
-                    <tr>
+                    <tr onClick={()=>{
+                        navigate('/page2',{replace:true})
+                    }}>
                         <td><img src={image} alt="" /></td>
                         <td>Cria</td>
                         <td>Zeneva</td>
@@ -69,7 +82,9 @@ const BottomComponent = () => {
                         <td><BsThreeDotsVertical /></td>
 
                     </tr>
-                    <tr>
+                    <tr onClick={()=>{
+                        navigate('/page2',{replace:true})
+                    }}>
                         <td><img src={image} alt="" /></td>
                         <td>Moris</td>
                         <td>Thomson</td>
@@ -81,7 +96,10 @@ const BottomComponent = () => {
                         <td><BsThreeDotsVertical /></td>
 
                     </tr>
-                    <tr>
+
+                    <tr onClick={()=>{
+                        navigate('/page2',{replace:true})
+                    }}>
                         <td><img src={image} alt="" /></td>
                         <td>Liana</td>
                         <td>Rivata</td>
@@ -91,7 +109,6 @@ const BottomComponent = () => {
                         <td>$ 130.00</td>
                         <td>12/01/2022</td>
                         <td><BsThreeDotsVertical /></td>
-
                     </tr>
                 </table>
             </div>
