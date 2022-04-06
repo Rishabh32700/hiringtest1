@@ -1,0 +1,33 @@
+.bottomComponent__container{
+    width: 95vw;
+}
+
+table{
+    margin-top: 1rem;
+    margin-left: 1vw;
+    border-radius: 5px;
+    width: 93vw;
+    text-align: center;
+    height: 50vh;
+    padding: 0 3rem 0 3rem;
+    box-shadow: 0 2px 3px 3px lightgrey;
+}
+
+table tr th{
+    border-bottom: 1px solid lightgrey;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 5px 0px;
+}
+
+table tr td{
+    padding: 5px 0px;
+    font-weight: 600;
+}
+
+table tr td img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px 3px lightgrey;
+}

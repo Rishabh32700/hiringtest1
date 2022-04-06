@@ -1,0 +1,11 @@
+.mainPage1__container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.left__side{
+    display: flex;
+    flex-direction: column;
+}

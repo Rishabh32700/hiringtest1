@@ -1,0 +1,88 @@
+.edit__details__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.edit__details {
+    display: flex;
+    padding: 2vh 4vw;
+
+}
+
+.edit__details img{
+    width: 11vw;
+
+    border-radius: 50%;
+}
+
+.edit__details form{
+    width: 55vw;
+    height: fit-content;
+    padding: 2vh 2vw;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.edit__details form .inputs,
+.edit__details__container .form2 .inputs{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.edit__details__container .form2 .inputs{
+    width: 31%;
+    margin-top: 0;
+}
+
+.edit__details form input,
+.edit__details__container .form2 input{
+    width: 100%;
+    border: 2px solid lightgray;
+    padding: 0.8vh 1vw;
+    border-radius: 5px;
+}
+
+.edit__details__container .form2 input{
+    /* height: 10vh; */
+    padding: 0 0 6vh 1vw;
+}
+
+.edit__details__container .form2{
+    width: 70vw;
+    height: fit-content;
+    padding: vh 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: none;
+}
+
+
+.inputs label .span1{
+    margin-left: 14vw;
+}
+.inputs label .span2{
+    margin-left: 12vw;
+}
+
+
+.buttons{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.buttons .button{
+    background-color: black;
+    color: white;
+    margin-right: 1rem;
+    padding: .5rem 0.8rem;
+    border-radius: 10px;
+}

@@ -1,0 +1,56 @@
+.bottomComponentPage2Left__container{
+    width: 20vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid lightgrey;
+}
+
+.bottomComponentPage2Left__container form{
+    width: 90%;
+    margin: 1vh 1vw;
+}
+
+.customerList__container{
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+.customer__details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.customer__details h4{
+    font-weight: 600;
+}
+
+.customer__details h5{
+    font-weight: 500;
+}
+
+.customer__details:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+
+.customer__details img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.customer__details .name__phNo{
+    margin-left: 2rem;
+}

@@ -1,0 +1,20 @@
+.sidePannel__container{
+    width: 5vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    padding-top: 25vh;
+}
+
+ul li{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-top: 2vh;
+}

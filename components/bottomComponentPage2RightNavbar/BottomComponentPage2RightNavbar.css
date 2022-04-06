@@ -1,0 +1,22 @@
+.navbar ul{
+    display: flex;
+    height: 10vh;
+    align-items: flex-start;
+    /* justify-content: space-evenly; */
+    /* border: 2px solid red; */
+    width: 75vw;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar ul li{
+    font-size: 1rem;
+    /* border: 2px solid red; */
+    padding: 0.5rem 2rem;
+    width: 25%;
+    text-align: center;
+}
+
+.navbar ul li:nth-child(2){
+    border-bottom: 2px solid black;
+}
